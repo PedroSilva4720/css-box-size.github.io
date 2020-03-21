@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS-Box-Size</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="text-h1">
+        <h1>CSS Box Size</h1>
+    </div>
+    <div class="inputs">
+        <div class="input-width">
+            <h2>Width</h2>
+            <p>number only (px)</p>
+            <input type="text" pattern="\d*" id="width_">
+        </div>
+        <div class="input-height">
+            <h2>Height</h2>
+            <p>number only (px)</p>
+            <input type="text" pattern="\d*" id="height_">
+        </div>
+    </div>
+    <div class="send">
+        <input type="submit" onclick="change()" value="Submit">
+    </div>
+    <div class="box" id="boxId"></div>
+
+</body>
+
+</html>
